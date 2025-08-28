@@ -1,0 +1,15 @@
+ git init
+ git status
+ git add testing.py
+ git status
+ git rm --cached testing.py
+ git status
+ git add testing.py
+ git status
+ git commit -m "add testing.py file"
+ git config --global user.email "mmohsinraza30945@gmail"
+ git config --global user.name "mohsin raza"
+ git commit -m "add testing.py file"
+ git status
+ rm testing.py
+ git restore testing.py
